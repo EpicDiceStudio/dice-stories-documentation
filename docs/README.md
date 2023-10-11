@@ -2,4 +2,4 @@
 
 ## Guide d'utilisation
 
-> An awesome project. oui
+> Bienvenue dans le guide d'utilisation de Dice Stories.
