@@ -1,3 +1,5 @@
-# Guide d'utilisation de Dice Stories
+# Dice Stories
 
-> An awesome project.
+## Guide d'utilisation
+
+> An awesome project. oui
