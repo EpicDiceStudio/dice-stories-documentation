@@ -50,12 +50,26 @@
     .sidebar {
       background-color: #282C30;
     }
+
+    .search {
+      margin-top: 2.5rem;
+      border: none !important;
+    }
+
+    .search input {
+      background-color: #1E2124;
+    }
   </style>
 </head>
 
 <body>
   <div id="app">Loading ...</div>
   <script>
+    var userLang = navigator.language || navigator.userLanguage;
+
+    if (!userLang || !userLang.startsWith('fr') && window.location.href.indexOf('/#/en/') === -1) {
+      window.location.href = window.location.href.replace('/#/', '/#/en/')
+    }
 
     const lang = location.hash.match(/#\/(en|fr)\//);
 
@@ -75,14 +89,24 @@
       maxLevel: 4,
       subMaxLevel: 2,
       ga: 'UA-106147152-1',
-      matomo: {
-        host: '//matomo.thunderwave.de',
-        id: 6,
+      search: {
+        noData: {
+          '/en/': 'No results',
+          '/': 'Aucun résultat',
+        },
+        paths: 'auto',
+        placeholder: {
+          '/en/': 'Search',
+          '/': 'Recherche',
+        },
+        pathNamespaces: ['/en'],
       },
+      fallbackLanguages: ["en"],
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 </body>
 
 </html>
