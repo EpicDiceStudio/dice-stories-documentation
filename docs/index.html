@@ -14,23 +14,37 @@
         href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet"
         href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css"
-        title="dark"
-        disabled />
-  <link rel="stylesheet"
-        href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css"
-        title="buble"
-        disabled />
-  <link rel="stylesheet"
-        href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css"
-        title="pure"
-        disabled />
-  <link rel="stylesheet"
-        href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dolphin.css"
-        title="dolphin"
-        disabled />
+        title="dark" />
   <style>
+    :root {
+      --theme-color: #5F7F8B;
+    }
+
     nav.app-nav li ul {
       min-width: 100px;
+    }
+
+    body {
+      background-color: #1E2124;
+    }
+
+    .sidebar-toggle {
+      background-color: transparent;
+      top: 0;
+      bottom: unset;
+      right: 0;
+      position: relative !important;
+      width: fit-content !important;
+      padding: 1rem;
+    }
+
+    .sidebar-toggle-button {
+      position: absolute;
+      right: 0;
+    }
+
+    .sidebar {
+      background-color: #282C30;
     }
   </style>
 </head>
