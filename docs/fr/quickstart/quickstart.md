@@ -1,8 +1,6 @@
 # Démarrage rapide
 
-## Niveau d'utilisation
-
-?> Le Marketplace n'étant pas encore disponible pour la version Alpha, l'utilisation de contenu pré-fait n'est pas encore possible. Il est conseillé de passer son niveau d'utilisation en "Maître de jeu confirmé".
+## Niveau d'utilisation :id=user-level
 
 A votre arrivée sur l'application, vous avez choisi un niveau d'utilisation :
 
@@ -12,7 +10,7 @@ A votre arrivée sur l'application, vous avez choisi un niveau d'utilisation :
 
 Vous pouvez à tout moment changer votre niveau d'utilisation dans vos paramètres d'utilisateur.
 
-## Etapes de création d'une partie
+## Etapes de création d'une partie :id=summary
 
 1. Créer une campagne
 2. Créer un système (simple)

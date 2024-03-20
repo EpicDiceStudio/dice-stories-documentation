@@ -10,7 +10,7 @@ Vous pouvez le renommer si vous le souhaitez et changer son image de fond.
 
 Un texte vous invitera à créer votre première "Mise en page".
 
-## Qu'est-ce qu'une mise en page ?
+## Qu'est-ce qu'une mise en page ? :id=layouts
 
 Une mise en page permet de définir quelles données seront présentes dans une ressource mais aussi leur aspect.
 
@@ -18,13 +18,13 @@ Nous conseillons de créer une mise en page par "type" de ressources (Personnage
 
 Pour l'instant faisons simple, créons une mise en page "Personnage". Elle permettra de créer facilement les personnages des joueurs, mais aussi les personnages non joueurs, les monstres etc.
 
-## Vocabulaire
+## Vocabulaire :id=vocabulary
 
 Plusieurs notions sont abordées ici, on peut les retrouver sur le panneau à gauche de votre page, nous nous concentrerons pour l'instant uniquement sur la partie "Design" de la mise en page.
 
 ![Configuration d'une mise en page](../../../_media/fr/quickstart/campaign/layout_panel.png)
 
-### Les onglets
+### Les onglets :id=tabs
 
 Les onglets permettent de créer des onglets de navigation à votre mise en page. C'est très pratique pour regrouper des informations et de limiter le défilement des joueurs.
 
@@ -32,7 +32,7 @@ Il est aussi possible de définir des conditions d'affichage à un onglet. Par e
 
 ?> Les onglets ont aussi un avantage au niveau des performances de chargement. L'application ne va charger les données que pour l'onglet affiché. Ainsi, si votre premier onglet n'affiche que les informations les plus courantes (points de vie...), la page sera plus rapide à charger.
 
-### Les Plans
+### Les Plans :id=blueprints
 
 Un plan est un groupement de données. Chaque donnée est appelée "Champ".
 
@@ -46,7 +46,7 @@ Se traduit par :
 
 C'est en utilisant les plans que l'on pourra définir des règles, lancés de dés etc.
 
-### Les groupes
+### Les groupes :id=groups
 
 Ils permettent de regrouper d'autres ressources. Le cas d'utilisation le plus courant est l'inventaire ou aussi les équipements.
 
@@ -56,11 +56,11 @@ Dans l'inventaire, nous pourrons configurer que toutes les ressources "Objet" pe
 
 Pour le groupe "Equipements" nous pourrons le limiter aux ressources "Equipement", nous ne voulons pas forcément autoriser un joueur qu'il s'équipe d'un vase par exemple.
 
-### Les modèles de style
+### Les modèles de style :id=styles
 
 Les modèles de style permettent de styliser un plan. Par exemple, si l'on reprend le plan "Force", on peut définir une icône illustrant ce plan, grossir la taille de l'écriture, positionner le champ "Valeur" etc.
 
-## Tutoriel
+## Tutoriel :id=tutorial
 
 Nous allons vous guider pas à pas pour la création de votre première mise en page. Le but est de vous faire découvrir les notions de base. Certaines notions ne seront pas abordées, vous pourrez consulter les "Notions Avancées" pour en apprendre davantage.
 
@@ -79,7 +79,7 @@ Pour notre mise en page "Personnage" nous voulons avoir les données suivantes :
 - Equipements
 - Compétences
 
-### Les Détails
+### Les Détails :id=details
 
 Commençons par le plus simple ! Crééez un plan "Détails" avec comme champs :
 
@@ -94,7 +94,7 @@ Commençons par le plus simple ! Crééez un plan "Détails" avec comme champs :
 
 ![Création du plan Détails](../../../_media/fr/quickstart/campaign/blueprint_classic_details.png)
 
-### Les Caractéristiques
+### Les Caractéristiques :id=caracteristics
 
 > Chaque caractéristique à une "Valeur".
 
@@ -126,7 +126,7 @@ Commençons par le plus simple ! Crééez un plan "Détails" avec comme champs :
 
 - Un plan en plus de créé
 
-#### Mise en pratique !
+#### Mise en pratique ! :id=how-it-works
 
 Nous allons choisir la deuxième solution qui permet plus de flexibilité.
 

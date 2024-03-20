@@ -14,7 +14,7 @@ Vous serez redirigé vers la page du détail de la campagne aussi appellée "Lob
 
 Cette campagne aura automatiquement toutes les extensions de base. Vous pouvez modifier son nom, sa miniature et lui mettre une image de fond.
 
-## Raccourcis
+## Raccourcis :id=shortcuts
 
 Deux barres de raccourcis sont situées en bas de l'écran à chaque extrêmités :
 

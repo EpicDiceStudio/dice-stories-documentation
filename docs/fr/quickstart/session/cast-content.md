@@ -1,12 +1,12 @@
 # Diffuser du contenu
 
-## Depuis vos scénarios
+## Depuis vos scénarios :id=from-scenarios
 
 Lorsque vous sélectionnez un acte avec une seule scène, cette scène sera automatiquement affichée à tout le monde.
 
 Si vous avez plusieurs scènes, vous pourrez sélectionné une de vos scène dans l'onglet "Scènes" et choisir "Diffuser".
 
-## Depuis la médiathèque
+## Depuis la médiathèque :id=from-library
 
 Depuis la médiathèque vous pouvez diffuser deux type de contenus. Les ressources et les média.
 
@@ -25,7 +25,7 @@ Vous pouvez diffuser par vos images, vidéos et vos sons en faisant un clic droi
 
 Les éléments seront diffusés à tous via un lecteur spécifique à chaque type de media.
 
-## Streaming de musiques
+## Streaming de musiques :id=music
 
 Le lecteur multimédia s'appui sur votre médiathèque pour diffuser des musiques.
 Les joueurs ne peuvent controller que le volume de la musique.

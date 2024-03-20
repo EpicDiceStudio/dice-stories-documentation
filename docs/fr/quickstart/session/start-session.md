@@ -12,6 +12,6 @@ Si vous le souhaitez, vous pouvez passer en vue "plein écran" facilement via le
 
 ![Mode plein écran](../../../_media/fr/quickstart/campaign/gm_screen_full_screen.png)
 
-## Se connecter en chat vocal
+## Se connecter en chat vocal :id=voice-chat
 
 Dans la fenêtre "Equipe", cliquez sur l'icône de téléphone. Vous serez automatiquement connecté aux autres joueurs. Vous pouvez modifier vos réglages de périphériques via l'icône de roue crantée.

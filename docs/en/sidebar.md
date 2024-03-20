@@ -1,14 +1,23 @@
 - Getting started
 
-  - [Quickstart](en/quickstart.md)
-  - [My first campaign](en/first-campaign.md)
-  - [Add players](en/add-players.md)
-  - [My first game](en/first-session.md)
+  - [Quick start](en/quickstart/quickstart.md)
+  - [Vocabulary](en/quickstart/vocabulary.md)
+  - My first campaign
+    - [Creation](en/quickstart/campaign/create-campaign.md)
+    - [Create a simple system](en/quickstart/campaign/create-system.md)
+    - [Creating characters](en/quickstart/campaign/create-resources.md)
+    - [Writing a scenario](en/quickstart/campaign/scenarios.md)
+    - [Invite players](en/quickstart/campaign/add-players.md)
+  - Ma première partie
+    - [Starting a game](en/quickstart/session/start-session.md)
+    - [Cast content](en/quickstart/session/cast-content.md)
 
-- System creation
+- Advanced concepts
 
-  - [Concept](en/concept.md)
-  - [My first system](en/first-system.md)
-  - [Layouts](en/layouts.md)
-  - [Rules](en/rules.md)
-  - [Generators](en/generators.md)
+  - Campaigns
+    - [Voice chat](en/advanced/campaigns/voice-chat.md)
+    - [Start a fight](en/advanced/campaigns/start-battle.md)
+  - Systems
+    - [Concept](en/advanced/systems/concept.md)
+    - [Rules](en/advanced/systems/rules.md)
+    - [Generators](en/advanced/systems/generators.md)
