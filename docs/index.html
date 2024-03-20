@@ -67,9 +67,9 @@
   <script>
     var userLang = navigator.language || navigator.userLanguage;
 
-    if (!userLang || !userLang.startsWith('fr') && window.location.href.indexOf('/#/en/') === -1) {
+    /* if (!userLang || !userLang.startsWith('fr') && window.location.href.indexOf('/#/en/') === -1) {
       window.location.href = window.location.href.replace('/#/', '/#/en/')
-    }
+    }*/
 
     const lang = location.hash.match(/#\/(en|fr)\//);
 
