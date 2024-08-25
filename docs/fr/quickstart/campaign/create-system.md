@@ -48,13 +48,13 @@ C'est en utilisant les plans que l'on pourra définir des règles, lancés de d�
 
 ### Les groupes :id=groups
 
-Ils permettent de regrouper d'autres ressources. Le cas d'utilisation le plus courant est l'inventaire ou aussi les équipements.
+Ils permettent de regrouper d'autres ressources. Le cas d'utilisation le plus courant est l'inventaire ou encore l'équipement.
 
-Pour ceux deux cas on peut créer un groupe "Inventaire" et un autre "Equipement".
+Pour ces deux cas on peut créer un groupe "Inventaire" et un autre "Equipement".
 
 Dans l'inventaire, nous pourrons configurer que toutes les ressources "Objet" peuvent y aller.
 
-Pour le groupe "Equipements" nous pourrons le limiter aux ressources "Equipement", nous ne voulons pas forcément autoriser un joueur qu'il s'équipe d'un vase par exemple.
+Pour le groupe "Equipements" nous pouvons le limiter à certaines ressources, afin d'éviter qu'un joueur ne s'équipe d'un vase par exemple.
 
 ### Les modèles de style :id=styles
 
@@ -81,12 +81,12 @@ Pour notre mise en page "Personnage" nous voulons avoir les données suivantes :
 
 ### Les Détails :id=details
 
-Commençons par le plus simple ! Crééez un plan "Détails" avec comme champs :
+Commençons par le plus simple ! Créez un plan "Détails" avec comme champs :
 
 - Taille (cm) - type Nombre
 - Poids (kg) - type Nombre
 - Métier - type Texte
-- Histoire - type Editeur de texte
+- Histoire - type Editeur de texte (ou Text editor)
 
 ?> Les types de champs sont en fait des extensions ! Des types par défaut sont disponibles mais vous pourrez en retrouver d'autres sur le marketplace.
 
@@ -168,7 +168,7 @@ Les autres informations serviront plus tard.
 
 ### Les styles
 
-1. Crééez un style "Caractéristique", sélectionnez un "Plan ciblé" le plan "Caractéristique".
+1. Créez un style "Caractéristique", sélectionnez un "Plan ciblé" le plan "Caractéristique".
 2. Ajoutez via le bouton "+" un champ
 3. Dans la rubrique "Données", sélectionner le champ "Valeur"
 4. Dans la rubrique "Style"
@@ -188,7 +188,7 @@ Exemple :
 
 ![Création d'un style](../../../_media/fr/quickstart/campaign/template_layout.png)
 
-1. Crééez un style "Détails", sélectionnez un "Plan ciblé" le plan "Détails".
+1. Créez un style "Détails", sélectionnez un "Plan ciblé" le plan "Détails".
 2. Ajoutez via le bouton "+" les champs du plan
 3. Dans la rubrique "Données", sélectionner le champ "Valeur"
 4. Laissez la configuration par défaut pour les champs "Métier", "Taille" et "Poids"
@@ -208,9 +208,9 @@ Bravo ! Vous êtes arrivés à la dernière étape !
 - Sélectionnez l'onglet "Général"
 - Dans le panneau "Plans", cliquez sur tous les plans excepté le plan "Caractéristique"
 - Positionnez les comme vous le souhaitez
-- sur les 3 caractéristiques, au survol des plans, cliquez sur l'icône de palette
-- Sélectionnez la zone de texte
-- Modifiez le texte et la couleur en fonction du plan sélectionné
+- sur les 3 caractéristiques, au survol des plans, cliquez sur l'icône de palette (dans la prévisualisation)
+  - Sélectionnez la zone de texte
+  - Modifiez le texte et la couleur en fonction du plan sélectionné
 
 Exemple :
 
@@ -218,6 +218,6 @@ Exemple :
 
 - Sélectionnez les autres onglets et placez-y les groupes de la même manière
 
-> Dans l'onglet "Inventaire", vous pouvez placer le groupe équipement et le groupe inventaire, placez les équipements en premier car il est plus important pour les joueurs
+> Dans l'onglet "Inventaire" (sur la prévisualisation), vous pouvez placer les groupes "équipements" et "inventaire", placez les équipements en premier car il est plus important pour les joueurs.
 
 Félicitations ! Vous avez terminé votre première mise en page ! Comme indiqué plus tôt, les règles, les générateurs et autres fonctionnalités vous seront expliquées plus tard dans le tutoriel avancé. Pour l'heure, place à la création des personnages !
