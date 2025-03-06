@@ -21,3 +21,5 @@
     - [Concept](en/advanced/systems/concept.md)
     - [Rules](en/advanced/systems/rules.md)
     - [Generators](en/advanced/systems/generators.md)
+  - Marketplace
+    - [Publish product](fr/advanced/marketplace/publish-product.md)
