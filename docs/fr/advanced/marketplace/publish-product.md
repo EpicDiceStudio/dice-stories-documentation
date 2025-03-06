@@ -4,10 +4,10 @@
 Dans Dice Stories il y a plusieurs notions pour partager du contenu :
 
 - Les **produits**, c'est un élément uniquement visible par vous, voyez ça simplement comme un groupement d'éditions de produit.
-- Des **éditions** de produits, ce sont elles qui seront visibles dans la marketplace. Une édition peut être payante[^1] ou gratuite. Il peut être utile de créer plusieurs éditions dans un même produit pour par exemple proposer des contenus premium, gratuits, en plusieurs langues etc.
+- Des **éditions** de produits, ce sont elles qui seront visibles dans la marketplace. Une édition peut être _payante_ ou gratuite. Il peut être utile de créer plusieurs éditions dans un même produit pour par exemple proposer des contenus premium, gratuits, en plusieurs langues etc.
 - Des **versions** d'éditions, c'est la définition du contenu d'un produit, sa description etc. Une version peut être publiée sur des accès différents (Public, Bêta, Alpha, Privé (sélection d'utilisateurs)). Si vous voulez qu'un panel réduit d'utilisateurs puissent tester votre produit avant de le publier à davantage d'utilisateurs, vous pouvez utiliser des accès différents.
 
-[^1]: Nécéssitera de créer un compte d'entreprise dédié, le processus est entièrement guidé, vous pouvez nous contacter pour toutes informations complémentaires.
+_payante_ : Nécéssitera de créer un compte d'entreprise dédié, le processus est entièrement guidé, vous pouvez nous contacter pour toutes informations complémentaires.
 
 ## Votre premier produit
 
